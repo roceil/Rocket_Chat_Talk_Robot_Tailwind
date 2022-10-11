@@ -635,10 +635,16 @@ select {
     max-width: 376px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
 
   .container {
-    max-width: 768px;
+    max-width: 500px;
+  }
+}
+@media (min-width: 769px) {
+
+  .container {
+    max-width: 769px;
   }
 }
 @media (min-width: 1024px) {
@@ -659,26 +665,20 @@ select {
 .relative {
   position: relative;
 }
-.bottom-\[60px\] {
-  bottom: 60px;
-}
-.bottom-0 {
-  bottom: 0px;
-}
-.bottom-1 {
-  bottom: 0.25rem;
-}
-.-bottom-1 {
-  bottom: -0.25rem;
-}
 .-bottom-2 {
   bottom: -0.5rem;
+}
+.bottom-\[60px\] {
+  bottom: 60px;
 }
 .-z-10 {
   z-index: -10;
 }
 .mt-8 {
   margin-top: 2rem;
+}
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -692,9 +692,6 @@ select {
 .mb-6 {
   margin-bottom: 1.5rem;
 }
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -703,35 +700,29 @@ select {
 .contents {
   display: contents;
 }
-.h-\[461px\] {
-  height: 461px;
-}
-.h-full {
-  height: 100%;
-}
-.h-auto {
-  height: auto;
-}
-.h-\[full\] {
-  height: full;
-}
-.h-\[255\] {
-  height: 255;
+.h-screen {
+  height: 100vh;
 }
 .h-\[255px\] {
   height: 255px;
 }
-.w-\[130px\] {
-  width: 130px;
-}
-.w-full {
-  width: 100%;
-}
-.w-auto {
-  width: auto;
+.h-\[461px\] {
+  height: 461px;
 }
 .w-\[347px\] {
   width: 347px;
+}
+.w-\[532px\] {
+  width: 532px;
+}
+.w-\[130px\] {
+  width: 130px;
+}
+.w-\[30px\] {
+  width: 30px;
+}
+.w-\[304px\] {
+  width: 304px;
 }
 .flex-col {
   -webkit-box-orient: vertical;
@@ -765,14 +756,11 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
 }
-.bg-footer-sm {
-  background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/footer_sm.svg');
-}
 .bg-banner-sm {
   background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home_sm.svg');
 }
-.bg-repeat {
-  background-repeat: repeat;
+.bg-footer-sm {
+  background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/footer_sm.svg');
 }
 .bg-no-repeat {
   background-repeat: no-repeat;
@@ -877,10 +865,75 @@ select {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
+
+  .md\:top-0 {
+    top: 0px;
+  }
+
+  .md\:right-0 {
+    right: 0px;
+  }
+
+  .md\:-z-10 {
+    z-index: -10;
+  }
+
+  .md\:flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .md\:h-full {
+    height: 100%;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
+  .md\:flex-row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+
+  .md\:items-center {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .md\:justify-between {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 
   .md\:border-0 {
     border-width: 0px;
+  }
+
+  .md\:bg-banner {
+    background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg');
+  }
+
+  .md\:bg-none {
+    background-image: none;
+  }
+
+  .md\:bg-right-top {
+    background-position: right top;
+  }
+
+  .md\:bg-no-repeat {
+    background-repeat: no-repeat;
   }
 
   .md\:text-\[32px\] {
@@ -890,13 +943,94 @@ select {
 
 @media (min-width: 1024px) {
 
+  .lg\:top-0 {
+    top: 0px;
+  }
+
+  .lg\:right-0 {
+    right: 0px;
+  }
+
+  .lg\:-z-10 {
+    z-index: -10;
+  }
+
+  .lg\:flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .lg\:h-full {
+    height: 100%;
+  }
+
+  .lg\:w-full {
+    width: 100%;
+  }
+
   .lg\:w-\[218px\] {
     width: 218px;
+  }
+
+  .lg\:items-center {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .lg\:justify-between {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .lg\:bg-none {
+    background-image: none;
+  }
+
+  .lg\:bg-banner {
+    background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg');
+  }
+
+  .lg\:bg-right-top {
+    background-position: right top;
+  }
+
+  .lg\:bg-no-repeat {
+    background-repeat: no-repeat;
   }
 
   .lg\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:leading-\[1\.44444\] {
+    line-height: 1.44444;
+  }
+
+  .lg\:leading-\[1\.4583\] {
+    line-height: 1.4583;
+  }
+
+  .lg\:leading-\[1\.45\] {
+    line-height: 1.45;
   }
 }
 
@@ -908,5 +1042,13 @@ select {
 
   .xl\:h-\[632px\] {
     height: 632px;
+  }
+
+  .xl\:w-full {
+    width: 100%;
+  }
+
+  .xl\:w-\[532px\] {
+    width: 532px;
   }
 }
