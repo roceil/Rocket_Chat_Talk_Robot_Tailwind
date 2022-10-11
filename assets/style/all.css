@@ -662,14 +662,8 @@ select {
 .bottom-\[60px\] {
   bottom: 60px;
 }
-.bottom-\[60\] {
-  bottom: 60;
-}
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-.mt-\[260px\] {
-  margin-top: 260px;
 }
 .flex {
   display: -webkit-box;
@@ -723,12 +717,6 @@ select {
 .bg-footer-sm {
   background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/footer_sm.svg');
 }
-.bg-cover {
-  background-size: cover;
-}
-.bg-center {
-  background-position: center;
-}
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -751,19 +739,11 @@ select {
   font-size: 1.5rem;
   line-height: 2rem;
 }
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
 .font-bold {
   font-weight: 700;
 }
 .leading-\[1\.4583\] {
   line-height: 1.4583;
-}
-.text-chatRobot-light_gray {
-  --tw-text-opacity: 1;
-  color: rgb(245 245 245 / var(--tw-text-opacity));
 }
 .underline {
   -webkit-text-decoration-line: underline;
@@ -814,16 +794,7 @@ select {
   line-height: 1.75rem;
   line-height: 1.44444;
 }
-
 @media (min-width: 376px) {
-
-  .sm\:bottom-\[100px\] {
-    bottom: 100px;
-  }
-
-  .sm\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
 
   .sm\:mb-12 {
     margin-bottom: 3rem;
@@ -844,21 +815,7 @@ select {
   .sm\:bg-center {
     background-position: center;
   }
-
-  .sm\:bg-top {
-    background-position: top;
-  }
-
-  .sm\:text-\[32px\] {
-    font-size: 32px;
-  }
-
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
 }
-
 @media (min-width: 768px) {
 
   .md\:border-0 {
@@ -869,7 +826,6 @@ select {
     font-size: 32px;
   }
 }
-
 @media (min-width: 1024px) {
 
   .lg\:w-\[218px\] {
@@ -881,22 +837,13 @@ select {
     padding-bottom: 1.5rem;
   }
 }
-
 @media (min-width: 1128px) {
 
   .xl\:bottom-\[100px\] {
     bottom: 100px;
   }
 
-  .xl\:h-\[508px\+124px\] {
-    height: 508px + 124px;
-  }
-
   .xl\:h-\[632px\] {
     height: 632px;
-  }
-
-  .xl\:bg-contain {
-    background-size: contain;
   }
 }
