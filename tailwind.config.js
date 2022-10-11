@@ -13,6 +13,7 @@ module.exports = {
         }
       },
       backgroundImage : {
+        'banner' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg')",
         'banner-sm' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home_sm.svg')",
         'footer' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home_footer.svg')",
         'footer-sm' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/footer_sm.svg')",
@@ -29,7 +30,10 @@ module.exports = {
       'sm': '376px',
       // => @media (min-width: 376px) { ... }
 
-      'md': '768px',
+      'sm-md': '500px',
+      // => @media (min-width: 500px) { ... }
+
+      'md': '769px',
       // => @media (min-width: 768px) { ... }
 
       'lg': '1024px',
