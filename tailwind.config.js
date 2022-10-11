@@ -13,6 +13,7 @@ module.exports = {
         }
       },
       backgroundImage : {
+        'banner-sm' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home_sm.svg')",
         'footer' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home_footer.svg')",
         'footer-sm' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/footer_sm.svg')",
       },
