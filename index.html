@@ -9,10 +9,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <!-- icon -->
   <link rel="shortcut icon" href="assets/images/chatTalker-icon.png" type="image/x-icon">
   <!-- og title -->
-  <meta property="og:image" content="https://raw.githubusercontent.com/roceil/Rocket_Chat_Talk_Robot_Tailwind/main/app/assets/images/chatTalker-icon.png" />
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/roceil/Rocket_Chat_Talk_Robot_Tailwind/main/app/assets/images/chatTalker-icon.png" />
   <meta property="og:title" content="你愛我像誰？ 扮演什麼角色我都會" />
   <meta property="og:description" content="ChatTalker 最全面的聊天機器人，Facebook、Instagram、LINE 聊天機器人解決方案" />
   <meta property="og:type" content="website" />
@@ -25,7 +28,7 @@
 </head>
 
 <body class="relative">
-  <div class="none absolute md:bg-banner md:bg-no-repeat md:bg-right-top  md:h-full md:w-full  md:top-0 md:right-0 md:-z-10"></div>
+  <!-- <div class="none absolute md:bg-banner md:bg-no-repeat md:bg-right-top  md:h-full md:w-full  md:top-0 md:right-0 md:-z-10"></div> -->
   <header class="border-b-2 border-chatRobot-secondary md:border-0">
     <div class="container flex justify-between items-center py-4 lg:py-6">
       <a href="index.html"><img
@@ -36,19 +39,178 @@
   </header>
 
   
-<main class="mt-8">
-  <section class="banner mb-5 h-screen">
+<main class="mt-[30px]">
+  <section
+    class="banner mb-5 banner-h relative ball1  after:bg-no-repeat after:w-[850px] after:h-[770px] after:absolute after:top-[-118px] after:right-0 after:-z-10 md:after:bg-banner ">
     <div class="container relative flex flex-col md:flex-row md:justify-between items-center">
       <div class="bg-banner-sm bg-no-repeat h-[255px] w-[347px] absolute -bottom-2 -z-10 md:bg-none"></div>
       <div class="">
         <p class="text-chatRobot-primary font-bold mb-2 lg:text-lg lg:leading-[1.44444]">ChatTalker 最全面的聊天機器人</p>
-        <h1 class="text-[32px] font-bold leading-[1.4375] mb-4 lg:text-5xl lg:leading-[1.4583]">你愛我像誰？<br> 扮演什麼角色我都會</h1>
+        <h1 class="text-[32px] font-bold leading-[1.4375] mb-4 lg:text-5xl lg:leading-[1.4583]">你愛我像誰？<br> 扮演什麼角色我都會
+        </h1>
         <p class="mb-8 lg:text-xl lg:leading-[1.45]">Facebook、Instagram、LINE 聊天機器人解決方案</p>
       </div>
       <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home.svg"
         alt="banner-right" class="w-[304px] lg:w-96 xl:w-[532px]">
     </div>
   </section>
+  <!-- 三大平台，我來搞定 -->
+  <section class="platform mt-[60px] md:mt-[100px]">
+    <h2>三大平台，我來搞定</h2>
+    <div class="container">
+      <ul class="md:flex md:justify-center md:-mx-3">
+        <!-- Facebook -->
+        <li class="mb-6  md:px-3 lg:mb-0 lg:pl-0 lg:px-10 xl:px-[63px] xl:pl-0">
+          <div class="flex flex-col justify-center items-center ">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/messenger.svg"
+              alt="Facebook" class="w-[60px] mb-4 lg:w-[90px] lg:mb-6">
+            <h3 class="text-lg leading-[1.44444] font-bold mb-4 lg:mb-6 xl:text-2xl xl:leading-[1.45833]">Facebook
+              Messenger</h3>
+            <p class="text-chatRobot-gray text-center">結合粉絲專頁，提高粉絲互動率<br> 有效經營品牌社群</p>
+          </div>
+        </li>
+
+        <!-- line -->
+        <li class="mb-6 md:px-3 lg:mb-0  lg:px-10 xl:px-[63px]">
+          <div class="flex flex-col justify-center items-center ">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/line.svg"
+              alt="LINE 官方帳號" class="w-[60px] mb-4 lg:w-[90px] lg:mb-6">
+            <h3 class="text-lg leading-[1.44444] font-bold mb-4 lg:mb-6 xl:text-2xl xl:leading-[1.45833]">LINE 官方帳號</h3>
+            <p class="text-chatRobot-gray text-center">融入日常生活，精準傳遞品牌資訊<br> 打造個人化專屬服務</p>
+          </div>
+        </li>
+
+        <!-- instagram -->
+        <li class="mb-6 md:pr-0 md:px-3 lg:mb-0  lg:px-10 lg:pr-0 xl:px-[63px] xl:pr-0">
+          <div class="flex flex-col justify-center items-center ">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/instagram.svg"
+              alt="Instagram 商業帳號" class="w-[60px] mb-4 lg:w-[90px] lg:mb-6">
+            <h3 class="text-lg leading-[1.44444] font-bold mb-4 lg:mb-6 xl:text-2xl xl:leading-[1.45833]">Instagram 商業帳號
+            </h3>
+            <p class="text-chatRobot-gray text-center">貼近粉絲，提升品牌自然聲量<br> 行銷、抽獎一站完成</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- 任何的角色，我都能給 -->
+  <section class="charactor mt-[60px] md:mt-[100px]">
+    <div class="container text-center">
+      <h2 class="mb-4">任何的角色，我都能給</h2>
+      <p class="text-lg leading-[1.4444] mb-8 md:text-xl md:leading-[1.45]">量身打造您想要的專屬服務，幫助您迅速判斷成效、並加快決策</p>
+      <ul class="flex flex-col justify-center items-center md:flex-row md:flex-wrap lg:-mx-2">
+        <!-- 01 活動主 -->
+        <li class="w-[260px]  mb-6 md:w-1/2 md:px-3 md:pl-0 md:mb-6 lg:w-1/4 lg:mb-0 lg:px-2">
+          <div class="shadow rounded-xl">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch01.svg"
+              alt="活動主" class="mb-4 rounded-t-xl">
+            <h3 class="text-chatRobot-primary font-bold mb-4">活動主</h3>
+            <p class="pb-6">用戶數位足跡掌握在手<br> 精準取得客戶輪廓，提供分析</p>
+          </div>
+        </li>
+        <!-- 02 創作者 -->
+        <li class="w-[260px] mb-6 md:w-1/2 md:px-3 md:pr-0 md:mb-6 lg:w-1/4 lg:mb-0 lg:px-2">
+          <div class="shadow rounded-xl">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch02.svg"
+              alt="創作者" class="mb-4 rounded-t-xl">
+            <h3 class="text-chatRobot-primary font-bold mb-4">創作者</h3>
+            <p class="pb-6">自由設計互動腳本<br> 輕鬆整合各項數據</p>
+          </div>
+        </li>
+        <!-- 03 企業品牌 -->
+        <li class="w-[260px] mb-6 md:w-1/2 md:px-3 md:pl-0 lg:mb-0 lg:w-1/4 lg:px-2">
+          <div class="shadow rounded-xl">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch03.svg"
+              alt="企業品牌" class="mb-4 rounded-t-xl">
+            <h3 class="text-chatRobot-primary font-bold mb-4">企業品牌</h3>
+            <p class="pb-6">多元資料整合，做出服務差異化<br> 幫助企業加速決策</p>
+          </div>
+        </li>
+        <!-- 04 其他 -->
+        <li class="w-[260px] md:mb-6 md:w-1/2 md:px-3 md:pr-0 lg:mb-0 lg:w-1/4 lg:px-2">
+          <div class="shadow rounded-xl">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch01.svg"
+              alt="其他" class="mb-4 rounded-t-xl">
+            <h3 class="text-chatRobot-primary font-bold mb-4">其他</h3>
+            <p class="pb-12">創造更多可能...</p>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+  <!-- 快速了解客戶輪廓 建立品牌流量池 -->
+  <section class="brandBuild mt-[60px] md:mt-[100px]">
+    <div class="container text-center lg:flex lg:flex-row-reverse lg:items-center lg:justify-between">
+      <!-- 標題區塊 -->
+      <div class="mb-8 lg:w-[45%] lg:text-left">
+        <h2 class="mb-4 lg:text-left">快速了解客戶輪廓<br> 建立品牌流量池</h2>
+        <p class="text-lg leading-[1.4444] mb-8 md:text-xl md:leading-[1.45]">深入用戶日常，成為用戶貼身好友<br> 精準傳遞品牌資訊，打造個人化專屬服務<br>
+          不知不覺深入用戶生活，成為用戶貼心的好朋朋:D</p>
+        <a href="#" class="btn btn-primary">方案費用</a>
+      </div>
+      <!-- 列表區塊 -->
+      <ul
+        class="flex flex-col justify-center items-center md:flex-row md:flex-wrap md:gap-x-[47px] md:gap-y-[28px] lg:w-[60%] lg:-ml-[35px] lg:-mr-[20px] xl:-ml-[70px]">
+        <!-- 01 無敵轉換術 -->
+        <li class="w-[230px] shadow text-left rounded-xl mb-6 md:mb-0">
+          <div class="pt-8 pb-12 px-6">
+            <div class="bg-white bg-icon01 w-[86px] h-[86px] bg-center bg-no-repeat rounded-full shadow mb-6"></div>
+            <h3 class="text-lg font-bold  leading-[1.4444] mb-5">無敵轉換術</h3>
+            <p>精準掌握客群來源<br> 分析用戶轉化流程</p>
+          </div>
+        </li>
+        <!-- 02 一站式訊息中心 -->
+        <li class="w-[230px] shadow text-left rounded-xl mb-6 md:mb-0">
+          <div class="pt-8 pb-12 px-6">
+            <div class="bg-white bg-icon03 w-[86px] h-[86px] bg-center bg-no-repeat rounded-full shadow mb-6"></div>
+            <h3 class="text-lg font-bold  leading-[1.4444] mb-5">一站式訊息中心</h3>
+            <p>整合Messenger、LINE和IG三大平台訊息</p>
+          </div>
+        </li>
+        <!-- 03 聊天機器人 -->
+        <li class="w-[230px] shadow text-left rounded-xl mb-6 md:mb-0">
+          <div class="pt-8 pb-12 px-6">
+            <div class="bg-white bg-icon02 w-[86px] h-[86px] bg-center bg-no-repeat rounded-full shadow mb-6"></div>
+            <h3 class="text-lg font-bold  leading-[1.4444] mb-5">聊天機器人</h3>
+            <p>66款聊天機器人模組<br> 自由設計聊天流程</p>
+          </div>
+        </li>
+        <!-- 04 群發訊息 -->
+        <li class="w-[230px] shadow text-left rounded-xl">
+          <div class="pt-8 pb-12 px-6">
+            <div class="bg-white bg-icon04 w-[86px] h-[86px] bg-center bg-no-repeat rounded-full shadow mb-6"></div>
+            <h3 class="text-lg font-bold  leading-[1.4444] mb-5">群發訊息</h3>
+            <p>自由選定特定受眾<br> 精準推送群發訊息</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- 好評如潮 -->
+  <section class="charactor mt-[60px] md:mt-[100px]">
+    <div class="container text-center">
+      <h2 class="mb-4">好評如潮</h2>
+      <!-- swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
 </main>
 
     <footer>
@@ -64,7 +226,17 @@
       </div>
     </footer>
     <script src="./assets/js/vendors.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./assets/js/all.js"></script>
+
+    <!-- swiper setting -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
 </body>
 
 </html>
