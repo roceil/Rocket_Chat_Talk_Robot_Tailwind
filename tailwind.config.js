@@ -13,8 +13,13 @@ module.exports = {
         }
       },
       backgroundImage : {
+        'ball1' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball01.svg')",
         'banner' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg')",
         'banner-sm' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home_sm.svg')",
+        'icon01' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon01.svg')",
+        'icon02' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon02.svg')",
+        'icon03' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon03.svg')",
+        'icon04' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon04.svg')",
         'footer' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home_footer.svg')",
         'footer-sm' : "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/footer_sm.svg')",
       },
@@ -33,7 +38,7 @@ module.exports = {
       'sm-md': '500px',
       // => @media (min-width: 500px) { ... }
 
-      'md': '769px',
+      'md': '768px',
       // => @media (min-width: 768px) { ... }
 
       'lg': '1024px',

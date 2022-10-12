@@ -9,10 +9,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <!-- icon -->
   <link rel="shortcut icon" href="assets/images/chatTalker-icon.png" type="image/x-icon">
   <!-- og title -->
-  <meta property="og:image" content="https://raw.githubusercontent.com/roceil/Rocket_Chat_Talk_Robot_Tailwind/main/app/assets/images/chatTalker-icon.png" />
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/roceil/Rocket_Chat_Talk_Robot_Tailwind/main/app/assets/images/chatTalker-icon.png" />
   <meta property="og:title" content="你愛我像誰？ 扮演什麼角色我都會" />
   <meta property="og:description" content="ChatTalker 最全面的聊天機器人，Facebook、Instagram、LINE 聊天機器人解決方案" />
   <meta property="og:type" content="website" />
@@ -25,7 +28,7 @@
 </head>
 
 <body class="relative">
-  <div class="none absolute md:bg-banner md:bg-no-repeat md:bg-right-top  md:h-full md:w-full  md:top-0 md:right-0 md:-z-10"></div>
+  <!-- <div class="none absolute md:bg-banner md:bg-no-repeat md:bg-right-top  md:h-full md:w-full  md:top-0 md:right-0 md:-z-10"></div> -->
   <header class="border-b-2 border-chatRobot-secondary md:border-0">
     <div class="container flex justify-between items-center py-4 lg:py-6">
       <a href="index.html"><img
@@ -50,7 +53,17 @@
       </div>
     </footer>
     <script src="./assets/js/vendors.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./assets/js/all.js"></script>
+
+    <!-- swiper setting -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
 </body>
 
 </html>
