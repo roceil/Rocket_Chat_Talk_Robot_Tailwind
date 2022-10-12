@@ -25,6 +25,8 @@
   </title>
   <!-- css -->
   <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/style/index.css">
 </head>
 
 <body class="relative">
@@ -40,6 +42,7 @@
 
   
 <main class="mt-[30px]">
+  <!-- banner -->
   <section
     class="banner mb-5 banner-h relative ball1  after:bg-no-repeat after:w-[850px] after:h-[770px] after:absolute after:top-[-118px] after:right-0 after:-z-10 md:after:bg-banner ">
     <div class="container relative flex flex-col md:flex-row md:justify-between items-center">
@@ -55,7 +58,7 @@
     </div>
   </section>
   <!-- 三大平台，我來搞定 -->
-  <section class="platform mt-[60px] md:mt-[100px]">
+  <section class="platform mt-[60px] relative ball1-sm md:mt-[100px] ">
     <h2>三大平台，我來搞定</h2>
     <div class="container">
       <ul class="md:flex md:justify-center md:-mx-3">
@@ -97,14 +100,14 @@
     </div>
   </section>
   <!-- 任何的角色，我都能給 -->
-  <section class="charactor mt-[60px] md:mt-[100px]">
+  <section class="charactor mt-[60px] mb-8 relative ball2 md:mt-[100px] ">
     <div class="container text-center">
       <h2 class="mb-4">任何的角色，我都能給</h2>
       <p class="text-lg leading-[1.4444] mb-8 md:text-xl md:leading-[1.45]">量身打造您想要的專屬服務，幫助您迅速判斷成效、並加快決策</p>
-      <ul class="flex flex-col justify-center items-center md:flex-row md:flex-wrap lg:-mx-2">
+      <ul class="flex flex-col justify-center items-center  md:flex-row md:flex-wrap lg:-mx-2">
         <!-- 01 活動主 -->
         <li class="w-[260px]  mb-6 md:w-1/2 md:px-3 md:pl-0 md:mb-6 lg:w-1/4 lg:mb-0 lg:px-2">
-          <div class="shadow rounded-xl">
+          <div class="shadow bg-white rounded-xl">
             <img
               src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch01.svg"
               alt="活動主" class="mb-4 rounded-t-xl">
@@ -114,7 +117,7 @@
         </li>
         <!-- 02 創作者 -->
         <li class="w-[260px] mb-6 md:w-1/2 md:px-3 md:pr-0 md:mb-6 lg:w-1/4 lg:mb-0 lg:px-2">
-          <div class="shadow rounded-xl">
+          <div class="shadow bg-white rounded-xl">
             <img
               src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch02.svg"
               alt="創作者" class="mb-4 rounded-t-xl">
@@ -124,7 +127,7 @@
         </li>
         <!-- 03 企業品牌 -->
         <li class="w-[260px] mb-6 md:w-1/2 md:px-3 md:pl-0 lg:mb-0 lg:w-1/4 lg:px-2">
-          <div class="shadow rounded-xl">
+          <div class="shadow bg-white rounded-xl">
             <img
               src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch03.svg"
               alt="企業品牌" class="mb-4 rounded-t-xl">
@@ -133,8 +136,8 @@
           </div>
         </li>
         <!-- 04 其他 -->
-        <li class="w-[260px] md:mb-6 md:w-1/2 md:px-3 md:pr-0 lg:mb-0 lg:w-1/4 lg:px-2">
-          <div class="shadow rounded-xl">
+        <li class="w-[260px]  md:mb-6 md:w-1/2 md:px-3 md:pr-0 lg:mb-0 lg:w-1/4 lg:px-2">
+          <div class="shadow bg-white rounded-xl">
             <img
               src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch01.svg"
               alt="其他" class="mb-4 rounded-t-xl">
@@ -147,7 +150,7 @@
     </div>
   </section>
   <!-- 快速了解客戶輪廓 建立品牌流量池 -->
-  <section class="brandBuild mt-[60px] md:mt-[100px]">
+  <section class="brandBuild pt-7 md:mt-[100px]">
     <div class="container text-center lg:flex lg:flex-row-reverse lg:items-center lg:justify-between">
       <!-- 標題區塊 -->
       <div class="mb-8 lg:w-[45%] lg:text-left">
@@ -195,16 +198,133 @@
     </div>
   </section>
   <!-- 好評如潮 -->
-  <section class="charactor mt-[60px] md:mt-[100px]">
+  <section
+    class="charactor mt-[60px] mb-[-13px] md:mb-[27px] md:mt-[100px] relative before:bg-ball3 before:w-[77px] before:h-[153px] before:absolute before:top-10 before:left-0 before:bg-right before:-z-10 xl:before:w-[153px] xl:before:h-[153px] xl:before:left-[50px]">
     <div class="container text-center">
-      <h2 class="mb-4">好評如潮</h2>
-      <!-- swiper -->
+      <h2 class="mb-[32px]">好評如潮</h2>
+      <!-- Swiper -->
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 4</div>
+          <!-- 01 -->
+          <div
+            class="swiper-slide rounded-xl shadow relative before:bg-user01 before:w-20 before:h-20 before:absolute before:-top-14 before:left-8 before:bg-center before:rounded-full before:bg-contain">
+            <div class=" ">
+              <div class="text-left px-4 pt-12 pb-4">
+                <p class=" border-b pb-4">原來聊天機器人可以這麼有人性！團隊非常的專業，有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。</p>
+                <h3 class="font-bold mt-4 mb-2">清心寡慾設計公司</h3>
+                <div class="flex justify-between">
+                  <p>Lina 執行長</p>
+                  <div class="flex justify-between items-center w-[121.02px]">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 02 -->
+          <div
+            class="swiper-slide rounded-xl shadow relative before:bg-user02 before:w-20 before:h-20 before:absolute before:-top-14 before:left-8 before:bg-center before:rounded-full before:bg-contain">
+            <div class=" ">
+              <div class="text-left px-4 pt-12 pb-4">
+                <p class=" border-b pb-4">團隊很積極的協助行銷追蹤，針對機器人進行優化，讓我們一個月內提高10000個追蹤者，客戶體驗回饋很正面！</p>
+                <h3 class="font-bold mt-4 mb-2">subwhat 行銷公司</h3>
+                <div class="flex justify-between">
+                  <p>Zoe 活動長</p>
+                  <div class="flex justify-between items-center w-[121.02px]">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 03 -->
+          <div
+            class="swiper-slide rounded-xl shadow relative before:bg-user03 before:w-20 before:h-20 before:absolute before:-top-14 before:left-8 before:bg-center before:rounded-full before:bg-contain">
+            <div class=" ">
+              <div class="text-left px-4 pt-12 pb-4">
+                <p class=" border-b pb-4">經營了好久的IG，一直無法提升粉絲數，和團隊合作後，才知道可以用聊天機器人玩這麼豐富的行銷活動！太讚拉～</p>
+                <h3 class="font-bold mt-4 mb-2">油土伯</h3>
+                <div class="flex justify-between">
+                  <p>HowBig</p>
+                  <div class="flex justify-between items-center w-[121.02px]">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 03 -->
+          <div
+            class="swiper-slide rounded-xl shadow relative before:bg-user01 before:w-20 before:h-20 before:absolute before:-top-14 before:left-8 before:bg-center before:rounded-full before:bg-contain">
+            <div class=" ">
+              <div class="text-left px-4 pt-12 pb-4">
+                <p class=" border-b pb-4">經營了好久的IG，一直無法提升粉絲數，和團隊合作後，才知道可以用聊天機器人玩這麼豐富的行銷活動！太讚拉～</p>
+                <h3 class="font-bold mt-4 mb-2">油土伯</h3>
+                <div class="flex justify-between">
+                  <p>HowBig</p>
+                  <div class="flex justify-between items-center w-[121.02px]">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                    <img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_star.svg"
+                      alt="icon_star" class="w-[16.78px] h-4">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -225,16 +345,41 @@
         <p class="px-11 py-4">© 2022 chatTalker. All Rights Reserved.</p>
       </div>
     </footer>
+
     <script src="./assets/js/vendors.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./assets/js/all.js"></script>
 
-    <!-- swiper setting -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        breakpoints: {
+          // when window width is >= 640px
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          // when window width is >= 1024px
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          }
+        },
+        freeMode: false,
         pagination: {
           el: ".swiper-pagination",
+          clickable: true,
         },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction : false,
+        },
+        loop: true,
+        
       });
     </script>
 </body>

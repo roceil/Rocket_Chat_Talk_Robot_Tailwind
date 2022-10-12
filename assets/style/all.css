@@ -573,10 +573,11 @@ select {
   outline: 1px auto -webkit-focus-ring-color;
 }
   html {
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
-    line-height: 1.5}
+    line-height: 1.5;
+  }
   h2 {
   margin-bottom: 2rem;
   text-align: center;
@@ -674,33 +675,6 @@ select {
     max-width: 1128px;
   }
 }
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
 .absolute {
   position: absolute;
 }
@@ -737,6 +711,18 @@ select {
 .mb-6 {
   margin-bottom: 1.5rem;
 }
+.mb-\[-13px\] {
+  margin-bottom: -13px;
+}
+.mb-\[88px\] {
+  margin-bottom: 88px;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.mb-\[32px\] {
+  margin-bottom: 32px;
+}
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -750,6 +736,9 @@ select {
 }
 .h-\[86px\] {
   height: 86px;
+}
+.h-4 {
+  height: 1rem;
 }
 .h-\[461px\] {
   height: 461px;
@@ -771,6 +760,12 @@ select {
 }
 .w-\[86px\] {
   width: 86px;
+}
+.w-\[121\.02px\] {
+  width: 121.02px;
+}
+.w-\[16\.78px\] {
+  width: 16.78px;
 }
 .w-\[130px\] {
   width: 130px;
@@ -805,6 +800,9 @@ select {
 .rounded-t-xl {
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
+}
+.border-b {
+  border-bottom-width: 1px;
 }
 .border-b-2 {
   border-bottom-width: 2px;
@@ -849,6 +847,10 @@ select {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -863,8 +865,17 @@ select {
 .pb-12 {
   padding-bottom: 3rem;
 }
+.pt-7 {
+  padding-top: 1.75rem;
+}
 .pt-8 {
   padding-top: 2rem;
+}
+.pt-12 {
+  padding-top: 3rem;
+}
+.pb-4 {
+  padding-bottom: 1rem;
 }
 .text-left {
   text-align: left;
@@ -971,13 +982,173 @@ select {
     background-position: right;
   }
 }
-.banner-h{
+.ball1-sm::before {
+  position: absolute;
+  top: 1rem;
+  z-index: -10;
+  height: 126px;
+  width: 49px;
+  background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball01.svg');
+  background-size: cover;
+  content: var(--tw-content);
+  background-position: right;
+}
+@media (min-width: 768px) {
+
+  .ball1-sm::before {
+    content: var(--tw-content);
+    background-image: none;
+  }
+}
+.ball2::before {
+  position: absolute;
+  bottom: -1.75rem;
+  right: 0px;
+  z-index: -20;
+  height: 135px;
+  width: 88px;
+  background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball02.svg');
+  content: var(--tw-content);
+  background-size: cover;
+}
+@media (min-width: 768px) {
+
+  .ball2::before {
+    bottom: -165px;
+    height: 310px;
+    content: var(--tw-content);
+    width: 210px;
+  }
+}
+@media (min-width: 1024px) {
+
+  .ball2::before {
+    content: var(--tw-content);
+    bottom: -190px;
+  }
+}
+.banner-h {
     height: calc(100vh - 118px);
   }
-.shadow{
+.shadow {
     -webkit-box-shadow: 0px 2px 10px #00000014;
             box-shadow: 0px 2px 10px #00000014;
   }
+
+.before\:absolute::before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:-top-14::before {
+  content: var(--tw-content);
+  top: -3.5rem;
+}
+
+.before\:left-8::before {
+  content: var(--tw-content);
+  left: 2rem;
+}
+
+.before\:top-0::before {
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.before\:left-0::before {
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.before\:-top-0::before {
+  content: var(--tw-content);
+  top: -0px;
+}
+
+.before\:-top-10::before {
+  content: var(--tw-content);
+  top: -2.5rem;
+}
+
+.before\:top-10::before {
+  content: var(--tw-content);
+  top: 2.5rem;
+}
+
+.before\:-z-10::before {
+  content: var(--tw-content);
+  z-index: -10;
+}
+
+.before\:h-20::before {
+  content: var(--tw-content);
+  height: 5rem;
+}
+
+.before\:h-\[153px\]::before {
+  content: var(--tw-content);
+  height: 153px;
+}
+
+.before\:w-20::before {
+  content: var(--tw-content);
+  width: 5rem;
+}
+
+.before\:w-\[\]::before {
+  content: var(--tw-content);
+  width: ;
+}
+
+.before\:w-\[77px\]::before {
+  content: var(--tw-content);
+  width: 77px;
+}
+
+.before\:rounded-full::before {
+  content: var(--tw-content);
+  border-radius: 9999px;
+}
+
+.before\:bg-user01::before {
+  content: var(--tw-content);
+  background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/user01.jpg');
+}
+
+.before\:bg-user02::before {
+  content: var(--tw-content);
+  background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/user02.jpg');
+}
+
+.before\:bg-user03::before {
+  content: var(--tw-content);
+  background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/user03.jpg');
+}
+
+.before\:bg-ball3::before {
+  content: var(--tw-content);
+  background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball03.svg');
+}
+
+.before\:bg-contain::before {
+  content: var(--tw-content);
+  background-size: contain;
+}
+
+.before\:bg-center::before {
+  content: var(--tw-content);
+  background-position: center;
+}
+
+.before\:bg-left::before {
+  content: var(--tw-content);
+  background-position: left;
+}
+
+.before\:bg-right::before {
+  content: var(--tw-content);
+  background-position: right;
+}
 
 .after\:absolute::after {
   content: var(--tw-content);
@@ -1066,6 +1237,10 @@ select {
 
   .md\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .md\:mb-\[27px\] {
+    margin-bottom: 27px;
   }
 
   .md\:flex {
@@ -1164,6 +1339,21 @@ select {
 
   .md\:leading-\[1\.45\] {
     line-height: 1.45;
+  }
+
+  .md\:before\:left-\[50px\]::before {
+    content: var(--tw-content);
+    left: 50px;
+  }
+
+  .md\:before\:h-\[153px\]::before {
+    content: var(--tw-content);
+    height: 153px;
+  }
+
+  .md\:before\:w-\[153px\]::before {
+    content: var(--tw-content);
+    width: 153px;
   }
 
   .md\:after\:bg-banner::after {
@@ -1337,5 +1527,45 @@ select {
 
   .xl\:leading-\[1\.45833\] {
     line-height: 1.45833;
+  }
+
+  .xl\:before\:left-\[50px\]::before {
+    content: var(--tw-content);
+    left: 50px;
+  }
+
+  .xl\:before\:h-\[\]::before {
+    content: var(--tw-content);
+    height: ;
+  }
+
+  .xl\:before\:h-\[150px\]::before {
+    content: var(--tw-content);
+    height: 150px;
+  }
+
+  .xl\:before\:h-\[153px\]::before {
+    content: var(--tw-content);
+    height: 153px;
+  }
+
+  .xl\:before\:h-\[15px\]::before {
+    content: var(--tw-content);
+    height: 15px;
+  }
+
+  .xl\:before\:w-\[150px\]::before {
+    content: var(--tw-content);
+    width: 150px;
+  }
+
+  .xl\:before\:w-\[15px\]::before {
+    content: var(--tw-content);
+    width: 15px;
+  }
+
+  .xl\:before\:w-\[153px\]::before {
+    content: var(--tw-content);
+    width: 153px;
   }
 }
