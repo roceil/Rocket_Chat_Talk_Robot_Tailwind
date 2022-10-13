@@ -27,7 +27,7 @@
   <!-- css -->
   <link rel="stylesheet" href="./assets/style/all.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="assets/style/index.css">
+  <link rel="stylesheet" href="assets/style/mixin.css">
 </head>
 
 <body class="relative before:content-['TOP']  before:w-[50px] before:h-[50px] before:fixed before:bg-chatRobot-primary before:flex before:justify-center before:items-center before:text-white before:rounded-full before:bottom-4 before:right-4 before:cursor-pointer before:z-20 before:font-wendy">
@@ -45,7 +45,7 @@
 <main>
   <!-- 計費方式說明 -->
   <section
-    class="h-[495px] relative  after:bg-charge-banner-sm after:absolute after:w-full after:h-full after:top-0 after:left-0 after:bg-no-repeat after:-z-10 after:bg-contain sm:after:bg-charge-banner md:after:top-[-77px] md:after:bg-right-top lg:after:top-[-88px] md:after:h-[590px]">
+    class="h-[495px] relative  after:bg-charge-banner-sm after:absolute after:w-full after:h-[110%] after:top-0 after:left-0 after:bg-no-repeat after:-z-10 after:bg-contain sm-md:after:bg-charge-banner md:after:top-[-77px] md:after:bg-right-top lg:after:top-[-88px] md:after:h-[590px]">
     <div class="container ">
       <h2 class="text-[32px] leading-[1.4375] text-left mb-4 pt-12 z-10 md:text-5xl md:leading-[1.45833]">計費方式說明</h2>
       <p>聊天機器人幫你實現增粉、轉單、客服等目標</p>
@@ -238,46 +238,37 @@
     <div class="container">
       <h2>常見問題</h2>
       <!-- 下方問題列表 -->
-      <ul>
-        <!-- 01 -->
-        <li id="problemList" class="bg-white shadow rounded-xl mb-4">
-          <!-- 標題文字 -->
-          <div class="flex justify-between p-4 md:px-8">
-            <p class="font-bold md:text-lg">我要怎麼變更方案？</p>
-            <img
-              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_plus.svg"
-              alt="list_plus">
+      <div class="wrap">
+        <div class="questionList">
+          <!-- 01 -->
+          <div class="question bg-white shadow rounded-xl mb-4">
+            <h3 class="flex justify-between items-center p-4 font-bold md:text-lg md:px-8">我要怎麼變更方案？
+              <div class="change-img bg-plus w-[20px] h-[20px] bg-contain bg-center active:bg-minus"></div>
+            </h3>
+            <p class="text-chatRobot-gray leading-loose px-4 pb-6 md:px-8">當然哦！我們錢都收了，不會拋棄你的！ 請您直接來我們公司，我們假日也都在辦公室。</p>
           </div>
-          <!-- 內容文字 -->
-          <p id="toggle" class="text-chatRobot-gray leading-loose hidden px-4 md:px-8">當然哦！我們錢都收了，不會拋棄你的！ 請您直接來我們公司，我們假日也都在辦公室。</p>
-        </li>
-        <!-- 02 -->
-        <li id="problemList" class="bg-white shadow rounded-xl mb-4">
-          <!-- 標題文字 -->
-          <div class="flex justify-between p-4 md:px-8">
-            <p class="font-bold md:text-lg">如果我沒有LINE官方帳號怎麼辦？</p>
-            <img
-              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_plus.svg"
-              alt="list_plus">
+          <!-- 02 -->
+          <div class="question bg-white shadow rounded-xl mb-4">
+            <h3 class="flex justify-between items-center p-4 font-bold md:text-lg md:px-8">如果我沒有LINE官方帳號怎麼辦？
+              <div class="change-img bg-plus w-[20px] h-[20px] bg-contain bg-center active:bg-minus"></div>
+            </h3>
+            <p class="text-chatRobot-gray leading-loose px-4 pb-6 md:px-8">當然哦！我們錢都收了，不會拋棄你的！ 請您直接來我們公司，我們假日也都在辦公室。</p>
           </div>
-          <!-- 內容文字 -->
-          <p id="toggle" class="text-chatRobot-gray leading-loose px-4 hidden md:px-8">當然哦！我們錢都收了，不會拋棄你的！ 請您直接來我們公司，我們假日也都在辦公室。</p>
-        </li>
-        <!-- 03 -->
-        <li id="problemList" class="bg-white shadow rounded-xl">
-          <!-- 標題文字 -->
-          <div class="flex justify-between p-4 md:px-8">
-            <p class="font-bold md:text-lg">非上班日有客服支援嗎？</p>
-            <img
-              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_plus.svg"
-              alt="list_plus">
+          <!-- 03 -->
+          <div class="question bg-white shadow rounded-xl mb-4">
+            <h3 class="flex justify-between items-center p-4 font-bold md:text-lg md:px-8">非上班日有客服支援嗎？
+              <div class="change-img bg-plus w-[20px] h-[20px] bg-contain bg-center active:bg-minus"></div>
+            </h3>
+            <p class="text-chatRobot-gray leading-loose px-4 pb-6 md:px-8">當然哦！我們錢都收了，不會拋棄你的！ 請您直接來我們公司，我們假日也都在辦公室。</p>
           </div>
-          <!-- 內容文字 -->
-          <p id="toggle" class="text-chatRobot-gray leading-loose px-4 hidden md:px-8">當然哦！我們錢都收了，不會拋棄你的！ 請您直接來我們公司，我們假日也都在辦公室。</p>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
   </section>
+
+  <!-- 分隔線 -->
+
+
 </main>
 
     <footer>
