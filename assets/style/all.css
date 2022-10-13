@@ -1400,17 +1400,17 @@ select {
   content: var(--tw-content);
   height: 110%;
 }
-.after\:h-\[770px\]::after {
+.after\:h-screen::after {
   content: var(--tw-content);
-  height: 770px;
+  height: 100vh;
 }
 .after\:w-full::after {
   content: var(--tw-content);
   width: 100%;
 }
-.after\:w-\[850px\]::after {
+.after\:w-\[65\%\]::after {
   content: var(--tw-content);
-  width: 850px;
+  width: 65%;
 }
 .after\:bg-charge-banner-sm::after {
   content: var(--tw-content);
@@ -1419,6 +1419,10 @@ select {
 .after\:bg-contain::after {
   content: var(--tw-content);
   background-size: contain;
+}
+.after\:bg-right-top::after {
+  content: var(--tw-content);
+  background-position: right top;
 }
 .after\:bg-no-repeat::after {
   content: var(--tw-content);
