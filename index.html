@@ -30,8 +30,10 @@
   <link rel="stylesheet" href="assets/style/mixin.css">
 </head>
 
-<body class="relative before:content-['TOP']  before:w-[50px] before:h-[50px] before:fixed before:bg-chatRobot-primary before:flex before:justify-center before:items-center before:text-white before:rounded-full before:bottom-4 before:right-4 before:cursor-pointer before:z-20 before:font-wendy">
-  <!-- <div class="none absolute md:bg-banner md:bg-no-repeat md:bg-right-top  md:h-full md:w-full  md:top-0 md:right-0 md:-z-10"></div> -->
+<body class="relative ">
+  <!-- <div id="topBtn" class="topBtn before:content-['TOP'] before:ring before:ring-white  before:w-[50px] before:h-[50px] before:fixed before:bg-chatRobot-primary before:flex before:justify-center before:items-center before:text-white before:rounded-full before:bottom-4 before:right-4  before:z-20 before:font-wendy lg:before:cursor-pointer lg:before:hover:bg-chatRobot-secondary lg:before:duration-300 lg:before:ease-in-out"></div> -->
+  <button class="topBtn ring ring-white w-[50px] h-[50px] fixed bg-chatRobot-primary flex
+  justify-center items-center text-white rounded-full bottom-4 right-4 z-20 font-wendy lg:cursor-pointer lg:hover:bg-chatRobot-warning lg:duration-300 lg:ease-in-out">TOP</button>
   <header class="border-b-2 border-chatRobot-secondary md:border-0">
     <div class="container flex justify-between items-center py-4 lg:py-6">
       <a href="index.html"><img
