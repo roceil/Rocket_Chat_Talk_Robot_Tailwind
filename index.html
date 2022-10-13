@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Wendy+One&display=swap" rel="stylesheet">
   <!-- swiper -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <!-- icon -->
@@ -29,14 +30,14 @@
   <link rel="stylesheet" href="assets/style/index.css">
 </head>
 
-<body class="relative">
+<body class="relative before:content-['TOP']  before:w-[50px] before:h-[50px] before:fixed before:bg-chatRobot-primary before:flex before:justify-center before:items-center before:text-white before:rounded-full before:bottom-4 before:right-4 before:cursor-pointer before:z-20 before:font-wendy">
   <!-- <div class="none absolute md:bg-banner md:bg-no-repeat md:bg-right-top  md:h-full md:w-full  md:top-0 md:right-0 md:-z-10"></div> -->
   <header class="border-b-2 border-chatRobot-secondary md:border-0">
     <div class="container flex justify-between items-center py-4 lg:py-6">
       <a href="index.html"><img
           src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/logo.png"
           alt="logo" class="w-[130px] lg:w-[218px]"></a>
-      <a href="#" class="btn btn-warning">方案費用</a>
+      <a href="charge.html" class="btn btn-warning">方案費用</a>
     </div>
   </header>
 
@@ -157,7 +158,7 @@
         <h2 class="mb-4 lg:text-left">快速了解客戶輪廓<br> 建立品牌流量池</h2>
         <p class="text-lg leading-[1.4444] mb-8 md:text-xl md:leading-[1.45]">深入用戶日常，成為用戶貼身好友<br> 精準傳遞品牌資訊，打造個人化專屬服務<br>
           不知不覺深入用戶生活，成為用戶貼心的好朋朋:D</p>
-        <a href="#" class="btn btn-primary">方案費用</a>
+        <a href="charge.html" class="btn btn-primary">方案費用</a>
       </div>
       <!-- 列表區塊 -->
       <ul
@@ -338,7 +339,7 @@
         class="flex justify-center bg-footer-sm bg-no-repeat h-[461px] relative sm:bg-footer sm:bg-center sm:bg-cover sm:h-[503px] xl:h-[632px]">
         <div class="container absolute bottom-[60px] flex items-center flex-col xl:bottom-[100px]">
           <p class="text-2xl font-bold leading-[1.4583] mb-6 sm:mb-12 md:text-[32px]">\ 美好用戶體驗，從對話開始 /</p>
-          <a href="#" class="btn btn-primary">方案費用</a>
+          <a href="charge.html" class="btn btn-primary">方案費用</a>
         </div>
       </div>
       <div class="bg-chatRobot-light_gray text-center">
@@ -376,10 +377,10 @@
         },
         autoplay: {
           delay: 3000,
-          disableOnInteraction : false,
+          disableOnInteraction: false,
         },
         loop: true,
-        
+
       });
     </script>
 </body>

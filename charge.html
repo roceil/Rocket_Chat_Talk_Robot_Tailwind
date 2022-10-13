@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Wendy+One&display=swap" rel="stylesheet">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <!-- icon -->
+  <link rel="shortcut icon" href="assets/images/chatTalker-icon.png" type="image/x-icon">
+  <!-- og title -->
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/roceil/Rocket_Chat_Talk_Robot_Tailwind/main/app/assets/images/chatTalker-icon.png" />
+  <meta property="og:title" content="你愛我像誰？ 扮演什麼角色我都會" />
+  <meta property="og:description" content="ChatTalker 最全面的聊天機器人，Facebook、Instagram、LINE 聊天機器人解決方案" />
+  <meta property="og:type" content="website" />
+
+  <title>
+    chatTalker__charge
+  </title>
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/style/index.css">
+</head>
+
+<body class="relative before:content-['TOP']  before:w-[50px] before:h-[50px] before:fixed before:bg-chatRobot-primary before:flex before:justify-center before:items-center before:text-white before:rounded-full before:bottom-4 before:right-4 before:cursor-pointer before:z-20 before:font-wendy">
+  <!-- <div class="none absolute md:bg-banner md:bg-no-repeat md:bg-right-top  md:h-full md:w-full  md:top-0 md:right-0 md:-z-10"></div> -->
+  <header class="border-b-2 border-chatRobot-secondary md:border-0">
+    <div class="container flex justify-between items-center py-4 lg:py-6">
+      <a href="index.html"><img
+          src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/logo.png"
+          alt="logo" class="w-[130px] lg:w-[218px]"></a>
+      <a href="charge.html" class="btn btn-warning">方案費用</a>
+    </div>
+  </header>
+
+  
+<main>
+  <!-- 計費方式說明 -->
+  <section
+    class="h-[495px] relative  after:bg-charge-banner-sm after:absolute after:w-full after:h-full after:top-0 after:left-0 after:bg-no-repeat after:-z-10 after:bg-contain sm:after:bg-charge-banner md:after:top-[-77px] md:after:bg-right-top lg:after:top-[-88px] md:after:h-[590px]">
+    <div class="container ">
+      <h2 class="text-[32px] leading-[1.4375] text-left mb-4 pt-12 z-10 md:text-5xl md:leading-[1.45833]">計費方式說明</h2>
+      <p>聊天機器人幫你實現增粉、轉單、客服等目標</p>
+    </div>
+    <div
+      class="bg-[#F7F9FD] rounded-bl-[150px] absolute top-0 w-full h-[495px] -z-20 md:top-[-77px] md:h-[470px] lg:top-[-88px]">
+    </div>
+  </section>
+  <!-- 彈性選擇，提供您選擇最適合的方案 -->
+  <section
+    class="mt-[60px] relative before:bg-ball3 before:absolute before:w-[96px] before:h-[204px] before:bg-no-repeat before:bg-right before:top-[690px] before:left-0 before:bg-cover before:-z-10 md:before:top-[560px] lg:before:top-[300px]">
+    <div class="container">
+      <h2 class="mb-6">彈性選擇，提供您選擇最適合的方案</h2>
+      <!-- 按鈕列表區 -->
+      <ul id="numBtn" class="flex items-center -mx-[6px] overflow-x-scroll h-[70px] md:justify-center">
+        <!-- 10000位 -->
+        <li class="px-[6px]">
+          <button type="button" value="10000" class="btn btn-plan-num">10000位</button>
+        </li>
+        <!-- 15000位 -->
+        <li class="px-[6px]">
+          <button type="button" value="15000" class="btn btn-plan-num">15000位</button>
+        </li>
+        <!-- 20000位 -->
+        <li class="px-[6px]">
+          <button type="button" value="20000" class="btn btn-plan-num">20000位</button>
+        </li>
+        <!-- 25000位 -->
+        <li class="px-[6px]">
+          <button type="button" value="25000" class="btn btn-plan-num">25000位</button>
+        </li>
+        <!-- >25000位 -->
+        <li class="px-[6px]">
+          <button type="button" value=">25000" class="btn btn-plan-num">>25000位</button>
+        </li>
+      </ul>
+      <!-- 卡片列表區 -->
+      <div class="text-center pt-4 ">
+        <ul class="mt-8 lg:flex lg:justify-center lg:-mx-[10.5px]">
+          <!-- card 01 -->
+          <li class="bg-white shadow rounded-xl mb-6 lg:mb-0 lg:mr-[21px]">
+            <div class="text-center pt-4 pb-6">
+              <!-- 文字區 -->
+              <h3 class="pb-4 text-2xl font-bold leading-[1.4583] border-b mb-6">基本版</h3>
+              <p class="pb-6">提供中小企業最必要的功能<br> 完整建立分眾以達到精準的行銷自動化</p>
+              <div class="flex flex-col items-center md:flex-row  md:justify-center lg:flex-col">
+                <!-- 數字框框 -->
+                <div class="flex items-center px-4">
+                  <!-- 第一個框框 -->
+                  <div class="w-[139px] py-4 bg-chatRobot-light_gray rounded-xl mr-[6px]">
+                    <p class="text-xs leading-[1.41666] mb-2">訂閱用戶數</p>
+                    <div class="flex justify-center">
+                      <p id="userNum" class="text-[28px] leading-[1.14285] text-chatRobot-primary mr-1">0</p>
+                      <sub class="text-xs leading-[1.41666] text-chatRobot-primary pt-[10px]">位</sub>
+                    </div>
+                  </div>
+                  <!-- 中間等於 -->
+                  <p class="text-2xl leading-[1.45833] mr-[6px]">=</p>
+                  <!-- 第二個框框 -->
+                  <div class=" w-[139px] py-4 bg-chatRobot-light_gray rounded-xl">
+                    <p class="text-xs leading-[1.41666] mb-2">試算每月的費用</p>
+                    <div class="flex justify-center">
+                      <p id="monthNum" class="text-[28px] leading-[1.14285] mr-1">0</p>
+                      <sub id="unit" class="text-xs leading-[1.41666]  pt-[10px]">TWD</sub>
+                    </div>
+                  </div>
+                </div>
+                <!-- 下方文字區 -->
+                <ul class="px-4 mt-6 mb-[35px]">
+                  <!-- 01 -->
+                  <li class="mb-4">
+                    <div class="flex items-center ">
+                      <img
+                        src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                        alt="check" class="mr-4">
+                      <p class="text-sm leading-[1.4285]">支援 Messenger / Instagram 或 LINE 渠道</p>
+                    </div>
+                  </li>
+                  <!-- 02 -->
+                  <li class="mb-4">
+                    <div class="flex items-center">
+                      <img
+                        src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                        alt="check" class="mr-4">
+                      <p class="text-sm leading-[1.4285]">10 個進階套件</p>
+                    </div>
+                  </li>
+                  <!-- 03 -->
+                  <li class="mb-4">
+                    <div class="flex items-center">
+                      <img
+                        src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                        alt="check" class="mr-4">
+                      <p class="text-sm leading-[1.4285]">可設定 50 種分眾標籤</p>
+                    </div>
+                  </li>
+                  <!-- 04 -->
+                  <li class="">
+                    <div class="flex items-center">
+                      <img
+                        src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                        alt="check" class="mr-4">
+                      <p class="text-sm leading-[1.4285]">客服人機轉接</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- 立即體驗BTN -->
+              <button class="text-lg leading-[1.4444] btn btn-primary">立即體驗</button>
+            </div>
+          </li>
+          <!-- card 02 -->
+          <li class="bg-white shadow rounded-xl ">
+            <div class="text-center pt-4 pb-6">
+              <!-- 文字區 -->
+              <h3 class="pb-4 text-2xl font-bold leading-[1.4583] border-b mb-6">標準版</h3>
+              <p class="pb-6">建立企業流量池，全通路數據整合與交換<br> 高可靠性服務</p>
+              <div class=" flex flex-col items-center md:flex-row  md:justify-center lg:flex-col">
+                <!-- 數字框框 -->
+                <div class="flex items-center px-4">
+                  <!-- 第一個框框 -->
+                  <div class="w-[139px] py-4 bg-chatRobot-light_gray rounded-xl mr-[6px]">
+                    <p class="text-xs leading-[1.41666] mb-2">訂閱用戶數</p>
+                    <div class="flex justify-center">
+                      <p id="userNum" class="text-[28px] leading-[1.14285] text-chatRobot-primary mr-1">0</p>
+                      <sub class="text-xs leading-[1.41666] text-chatRobot-primary pt-[10px]">位</sub>
+                    </div>
+                  </div>
+                  <!-- 中間等於 -->
+                  <p class="text-2xl leading-[1.45833] mr-[6px]">=</p>
+                  <!-- 第二個框框 -->
+                  <div class=" w-[139px] py-4 bg-chatRobot-light_gray rounded-xl">
+                    <p class="text-xs leading-[1.41666] mb-2">試算每月的費用</p>
+                    <div class="flex justify-center">
+                      <p id="monthNum" class="text-[28px] leading-[1.14285] mr-1">0</p>
+                      <sub id="unit" class="text-xs leading-[1.41666]  pt-[10px] ">TWD</sub>
+                    </div>
+                  </div>
+                </div>
+                <!-- 下方文字區 -->
+                <ul class="px-4 mt-6 mb-[35px]">
+                  <!-- 01 -->
+                  <li class="mb-4">
+                    <div class="flex items-center ">
+                      <img
+                        src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                        alt="check" class="mr-4">
+                      <p class="text-sm leading-[1.4285] text-left">支援多個 Messenger、Instagram 和 LINE 渠道</p>
+                    </div>
+                  </li>
+                  <!-- 02 -->
+                  <li class="mb-4">
+                    <div class="flex items-center">
+                      <img
+                        src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                        alt="check" class="mr-4">
+                      <p class="text-sm leading-[1.4285]">10 個進階套件</p>
+                    </div>
+                  </li>
+                  <!-- 03 -->
+                  <li class="mb-4">
+                    <div class="flex items-center">
+                      <img
+                        src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                        alt="check" class="mr-4">
+                      <p class="text-sm leading-[1.4285]">可設定 50 種分眾標籤</p>
+                    </div>
+                  </li>
+                  <!-- 04 -->
+                  <li class="">
+                    <div class="flex items-center">
+                      <img
+                        src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg"
+                        alt="check" class="mr-4">
+                      <p class="text-sm leading-[1.4285]">客服人機轉接</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- 立即體驗BTN -->
+              <button class="text-lg leading-[1.4444] btn btn-primary">立即體驗</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- 常見問題 -->
+  <section class="mt-[60px] md:mt-[100px] mb-[60px]">
+    <div class="container">
+      <h2>常見問題</h2>
+      <!-- 下方問題列表 -->
+      <ul>
+        <!-- 01 -->
+        <li id="problemList" class="bg-white shadow rounded-xl mb-4">
+          <!-- 標題文字 -->
+          <div class="flex justify-between p-4 md:px-8">
+            <p class="font-bold md:text-lg">我要怎麼變更方案？</p>
+            <img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_plus.svg"
+              alt="list_plus">
+          </div>
+          <!-- 內容文字 -->
+          <p id="toggle" class="text-chatRobot-gray leading-loose hidden px-4 md:px-8">當然哦！我們錢都收了，不會拋棄你的！ 請您直接來我們公司，我們假日也都在辦公室。</p>
+        </li>
+        <!-- 02 -->
+        <li id="problemList" class="bg-white shadow rounded-xl mb-4">
+          <!-- 標題文字 -->
+          <div class="flex justify-between p-4 md:px-8">
+            <p class="font-bold md:text-lg">如果我沒有LINE官方帳號怎麼辦？</p>
+            <img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_plus.svg"
+              alt="list_plus">
+          </div>
+          <!-- 內容文字 -->
+          <p id="toggle" class="text-chatRobot-gray leading-loose px-4 hidden md:px-8">當然哦！我們錢都收了，不會拋棄你的！ 請您直接來我們公司，我們假日也都在辦公室。</p>
+        </li>
+        <!-- 03 -->
+        <li id="problemList" class="bg-white shadow rounded-xl">
+          <!-- 標題文字 -->
+          <div class="flex justify-between p-4 md:px-8">
+            <p class="font-bold md:text-lg">非上班日有客服支援嗎？</p>
+            <img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_plus.svg"
+              alt="list_plus">
+          </div>
+          <!-- 內容文字 -->
+          <p id="toggle" class="text-chatRobot-gray leading-loose px-4 hidden md:px-8">當然哦！我們錢都收了，不會拋棄你的！ 請您直接來我們公司，我們假日也都在辦公室。</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+    <footer>
+      <div
+        class="flex justify-center bg-footer-sm bg-no-repeat h-[461px] relative sm:bg-footer sm:bg-center sm:bg-cover sm:h-[503px] xl:h-[632px]">
+        <div class="container absolute bottom-[60px] flex items-center flex-col xl:bottom-[100px]">
+          <p class="text-2xl font-bold leading-[1.4583] mb-6 sm:mb-12 md:text-[32px]">\ 美好用戶體驗，從對話開始 /</p>
+          <a href="charge.html" class="btn btn-primary">方案費用</a>
+        </div>
+      </div>
+      <div class="bg-chatRobot-light_gray text-center">
+        <p class="px-11 py-4">© 2022 chatTalker. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        breakpoints: {
+          // when window width is >= 640px
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          // when window width is >= 1024px
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          }
+        },
+        freeMode: false,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        loop: true,
+
+      });
+    </script>
+</body>
+
+</html>
