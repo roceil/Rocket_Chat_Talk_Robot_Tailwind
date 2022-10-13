@@ -1531,6 +1531,10 @@ select {
     row-gap: 28px;
   }
 
+  .md\:overflow-auto {
+    overflow: auto;
+  }
+
   .md\:border-0 {
     border-width: 0px;
   }
