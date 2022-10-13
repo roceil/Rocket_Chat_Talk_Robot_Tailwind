@@ -47,4 +47,19 @@
   border-radius: 50px;
   width: 16px;
   height: 10px;
-}/*# sourceMappingURL=index.css.map */
+}
+
+.question h3.active {
+  color: #56C4C5;
+}
+.question h3.active div {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_minus.svg");
+  width: 20px;
+  height: 2px;
+}
+.question h3.active p {
+  display: block;
+}
+.question p {
+  display: none;
+}/*# sourceMappingURL=mixin.css.map */

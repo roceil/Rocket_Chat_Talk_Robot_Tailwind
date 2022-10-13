@@ -1,0 +1,18 @@
+.question {
+	h3 {
+		&.active {
+      color:#56C4C5 ;
+      div{
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_minus.svg");
+        width: 20px;
+        height: 2px;
+      }
+			p {
+				display: block;
+			}
+		}
+	}
+	p {
+		display: none;
+	}
+}

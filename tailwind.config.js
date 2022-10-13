@@ -45,6 +45,8 @@ module.exports = {
           "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg')",
         "charge-banner":
           "url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg')",
+          "plus":"url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_plus.svg')",
+          "minus":"url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_minus.svg')",
       },
     },
     container: {
