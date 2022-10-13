@@ -1,29 +1,12 @@
-//color
-$primary: #3d82ad;
-$white: #fff;
-$text: #333;
-$blue: #5fbfff;
-$green: #00aa00;
-$yellow: #f3da9a;
-$orange: #ff8800;
-$pink: #faaad1;
-$red: #fa5858;
-$darkRed: #a11313;
-
-//layout
-body {
-	box-sizing: border-box;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, "微軟正黑體";
-}
-
-.wrap {
-	width: 500px;
-	margin: 0 auto;
-}
-
 .question {
 	h3 {
 		&.active {
+      color:#56C4C5 ;
+      div{
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_minus.svg");
+        width: 20px;
+        height: 2px;
+      }
 			p {
 				display: block;
 			}

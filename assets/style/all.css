@@ -762,9 +762,6 @@ select {
 .contents {
   display: contents;
 }
-.hidden {
-  display: none;
-}
 .h-\[495px\] {
   height: 495px;
 }
@@ -1164,269 +1161,217 @@ select {
     -webkit-box-shadow: 0px 2px 10px #00000014;
             box-shadow: 0px 2px 10px #00000014;
   }
-
 .before\:fixed::before {
   content: var(--tw-content);
   position: fixed;
 }
-
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
 }
-
 .before\:top-\[690px\]::before {
   content: var(--tw-content);
   top: 690px;
 }
-
 .before\:left-0::before {
   content: var(--tw-content);
   left: 0px;
 }
-
 .before\:top-10::before {
   content: var(--tw-content);
   top: 2.5rem;
 }
-
 .before\:-top-14::before {
   content: var(--tw-content);
   top: -3.5rem;
 }
-
 .before\:left-8::before {
   content: var(--tw-content);
   left: 2rem;
 }
-
 .before\:bottom-4::before {
   content: var(--tw-content);
   bottom: 1rem;
 }
-
 .before\:right-4::before {
   content: var(--tw-content);
   right: 1rem;
 }
-
 .before\:-z-10::before {
   content: var(--tw-content);
   z-index: -10;
 }
-
 .before\:z-20::before {
   content: var(--tw-content);
   z-index: 20;
 }
-
 .before\:flex::before {
   content: var(--tw-content);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .before\:h-\[204px\]::before {
   content: var(--tw-content);
   height: 204px;
 }
-
 .before\:h-\[153px\]::before {
   content: var(--tw-content);
   height: 153px;
 }
-
 .before\:h-20::before {
   content: var(--tw-content);
   height: 5rem;
 }
-
 .before\:h-\[50px\]::before {
   content: var(--tw-content);
   height: 50px;
 }
-
 .before\:w-\[96px\]::before {
   content: var(--tw-content);
   width: 96px;
 }
-
 .before\:w-\[77px\]::before {
   content: var(--tw-content);
   width: 77px;
 }
-
 .before\:w-20::before {
   content: var(--tw-content);
   width: 5rem;
 }
-
 .before\:w-\[50px\]::before {
   content: var(--tw-content);
   width: 50px;
 }
-
 .before\:cursor-pointer::before {
   content: var(--tw-content);
   cursor: pointer;
 }
-
 .before\:items-center::before {
   content: var(--tw-content);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
-
 .before\:justify-center::before {
   content: var(--tw-content);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 .before\:rounded-full::before {
   content: var(--tw-content);
   border-radius: 9999px;
 }
-
 .before\:bg-chatRobot-primary::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(86 196 197 / var(--tw-bg-opacity));
 }
-
 .before\:bg-ball3::before {
   content: var(--tw-content);
   background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball03.svg');
 }
-
 .before\:bg-user01::before {
   content: var(--tw-content);
   background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/user01.jpg');
 }
-
 .before\:bg-user02::before {
   content: var(--tw-content);
   background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/user02.jpg');
 }
-
 .before\:bg-user03::before {
   content: var(--tw-content);
   background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/user03.jpg');
 }
-
 .before\:bg-cover::before {
   content: var(--tw-content);
   background-size: cover;
 }
-
 .before\:bg-contain::before {
   content: var(--tw-content);
   background-size: contain;
 }
-
 .before\:bg-right::before {
   content: var(--tw-content);
   background-position: right;
 }
-
 .before\:bg-center::before {
   content: var(--tw-content);
   background-position: center;
 }
-
 .before\:bg-no-repeat::before {
   content: var(--tw-content);
   background-repeat: no-repeat;
 }
-
 .before\:font-wendy::before {
   content: var(--tw-content);
   font-family: Wendy One, Noto Sans TC, sans-serif;
 }
-
 .before\:text-white::before {
   content: var(--tw-content);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-
 .before\:content-\[\'TOP\'\]::before {
   --tw-content: 'TOP';
   content: var(--tw-content);
 }
-
 .after\:absolute::after {
   content: var(--tw-content);
   position: absolute;
 }
-
 .after\:top-0::after {
   content: var(--tw-content);
   top: 0px;
 }
-
 .after\:left-0::after {
   content: var(--tw-content);
   left: 0px;
 }
-
 .after\:top-\[-118px\]::after {
   content: var(--tw-content);
   top: -118px;
 }
-
 .after\:right-0::after {
   content: var(--tw-content);
   right: 0px;
 }
-
 .after\:-z-10::after {
   content: var(--tw-content);
   z-index: -10;
 }
-
 .after\:h-\[110\%\]::after {
   content: var(--tw-content);
   height: 110%;
 }
-
 .after\:h-\[770px\]::after {
   content: var(--tw-content);
   height: 770px;
 }
-
 .after\:w-full::after {
   content: var(--tw-content);
   width: 100%;
 }
-
 .after\:w-\[850px\]::after {
   content: var(--tw-content);
   width: 850px;
 }
-
 .after\:bg-charge-banner-sm::after {
   content: var(--tw-content);
   background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg');
 }
-
 .after\:bg-contain::after {
   content: var(--tw-content);
   background-size: contain;
 }
-
 .after\:bg-no-repeat::after {
   content: var(--tw-content);
   background-repeat: no-repeat;
 }
-
 .active\:bg-minus:active {
   background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_minus.svg');
 }
-
 @media (min-width: 376px) {
 
   .sm\:mb-12 {
@@ -1449,7 +1394,6 @@ select {
     background-position: center;
   }
 }
-
 @media (min-width: 500px) {
 
   .sm-md\:after\:bg-charge-banner::after {
@@ -1457,7 +1401,6 @@ select {
     background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg');
   }
 }
-
 @media (min-width: 768px) {
 
   .md\:top-\[-77px\] {
@@ -1643,7 +1586,6 @@ select {
     background-position: right top;
   }
 }
-
 @media (min-width: 1024px) {
 
   .lg\:top-\[-88px\] {
@@ -1684,6 +1626,10 @@ select {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+
+  .lg\:w-\[357\.08px\] {
+    width: 357.08px;
   }
 
   .lg\:w-96 {
@@ -1806,7 +1752,6 @@ select {
     top: -88px;
   }
 }
-
 @media (min-width: 1128px) {
 
   .xl\:bottom-\[100px\] {
